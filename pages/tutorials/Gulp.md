@@ -448,7 +448,8 @@ Let's modify `tsconfig.json`:
 ```json
 {
     "files": [
-        "src/main.ts"
+        "src/main.ts",
+        "src/greet.ts"
     ],
     "compilerOptions": {
         "noImplicitAny": true,
